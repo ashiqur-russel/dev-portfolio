@@ -53,12 +53,11 @@ body{
 }
 
 
-section{
+.container{
     display: flex;
     padding-left: 2px;
     padding-top: 5px;
     margin: 0;
-    background-color: #373B44;
     height: 100vh;
 }
 
@@ -97,8 +96,14 @@ img {
     background-image: url(./images/bg2.webp) ;
     background-repeat: no-repeat;
     padding: 20px;
+       
 }
 
+.dream{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+}
 .dream-me{
     margin-top: 7em;
     margin-bottom: 5px;
@@ -109,10 +114,74 @@ img {
 }
 
 .dream-title{
-    font-size: 16px;
+    font-size: 1.5em;
     text-transform: uppercase;
 }
 
 .message-dream{
     margin-top: 1em;
+    font-size: 20px;
+    color: orange;
 }
+
+/*  Experience Area */
+.experience-area{
+    background-image: url(./images/1.avif) ;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+
+.experience{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.job1,.job2{
+    text-align: justify;
+    padding: 20px;
+   
+}
+.job-position{
+    text-transform: uppercase;
+
+    margin-top: 50px;font-style: italic;
+
+}
+.date{
+    margin-top: 20px;
+    color: rgb(120, 50, 50);
+    margin-bottom: 20px;
+
+}
+.job-company{
+        font-size: 18px;
+
+}
+
+.job-details{
+    margin-top: 20px;
+}
+
+.experience-list{
+   width: 100%;
+   height: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+
+
+}
+
+.border1{
+        border-left: 5px solid #008CBA;
+
+}
+.border2{
+        border-left: 5px solid #aa190c;
+
+}
+
+
