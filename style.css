@@ -37,6 +37,7 @@ body{
     margin-bottom: 5px;
  text-align: justify;
  font-size: 16px;
+  color: aliceblue;
 
 }
 
@@ -63,8 +64,6 @@ section{
     margin: 0;
     background-color: #373B44;
     height: 100vh;
-          
-
 }
 
 .header {
@@ -72,6 +71,7 @@ section{
     height: 100%;
     padding-left: 5%;
     margin-top: 2em;
+   
 
 }
 
@@ -92,4 +92,27 @@ img {
       background-image: url(./images/12.avif) ;
       background-repeat: no-repeat;
             
+}
+.my-dream{
+    background-image: url(./images/bg2.webp) ;
+      background-repeat: no-repeat;
+      padding: 20px;
+}
+
+.dream-me{
+    margin-top: 7em;
+    margin-bottom: 5px;
+ text-align: justify;
+ font-size: 16px;
+  color: rgb(12, 12, 12);
+ 
+}
+
+.dream-title{
+        font-size: 16px;
+text-transform: uppercase;
+}
+
+.message-dream{
+    margin-top: 1em;
 }
