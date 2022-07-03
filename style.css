@@ -1,5 +1,4 @@
 *{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -11,6 +10,10 @@ body{
     margin: 20px;
     padding: 5px;
     letter-spacing: 3px;
+}
+
+.container{
+display: flex;
 }
 .welcome{
     margin-top: 10px;
@@ -41,6 +44,9 @@ body{
 .about-me{
     margin-top: 10px;
         margin-bottom: 5px;
+          text-align: justify;
+  text-justify: inherit;
+
 }
 
 .btn-hire{
