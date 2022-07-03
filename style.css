@@ -24,8 +24,33 @@
 }
 
 .welcome-msg{
-    margin-top: 30px;
+    margin-top: 25px;
  
+}
 
+.position{
+    margin-top: 50px;
+        font-style: italic;
+        margin-bottom: 5px;
+
+}
+.about-me{
+    margin-top: 10px;
+        margin-bottom: 5px;
+}
+
+.btn-hire{
+    margin-top:90px ;
+    text-transform: uppercase;
+    background-color: #008CBA;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
 }
 
