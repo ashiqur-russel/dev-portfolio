@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .main{
     margin: 20px;
     padding: 5px;
@@ -54,3 +58,10 @@
     margin: 4px 2px;
 }
 
+
+.portfolio-img{
+    display: inline;
+    width: 400px;
+    height: 400px;
+float: right;
+}
