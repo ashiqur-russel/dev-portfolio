@@ -1,20 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 
 body{
     font-family: 'Roboto', sans-serif;
+    
 }
 .main{
-    margin: 20px;
-    padding: 5px;
     letter-spacing: 3px;
 }
 
-.container{
-display: flex;
-}
+
 .welcome{
     margin-top: 10px;
     padding: 5px;
@@ -26,7 +20,7 @@ display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 6px;
     font-size: 1.5em;
-    color: rgb(237, 116, 68);
+    color: rgb(255, 255, 255);
     font-style:normal;
 }
 
@@ -65,9 +59,31 @@ display: flex;
 }
 
 
-.portfolio-img{
-    display: inline;
-    width: 400px;
-    height: 400px;
-float: right;
+section{
+display: flex;
+padding-left: 2px;
+padding-top: 5px;
+
+
+  margin: 0;
+  background-color: #373B44;
+  height: 100vh;
+  
+  
+  
+}
+
+.header {
+    width: 50%;
+    height: 100%;
+    padding-left: 5%;
+}
+
+.header img {
+    width: 100%;
+}
+
+.banner{
+        background-image: url(./123.png);
+
 }
