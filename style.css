@@ -1,27 +1,22 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    font-family: 'Roboto', sans-serif;
-    
-}
-.main{
-    letter-spacing: 3px;
-}
+    font-family: 'Roboto', sans-serif;   
+        letter-spacing: 6px;   
+    font-size: 16px;
 
 
-.welcome{
-    margin-top: 10px;
-    padding: 5px;
-        text-transform: uppercase;
-
 }
+
 
 .name{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 6px;
+    letter-spacing: 5px;
     font-size: 1.5em;
-    color: rgb(255, 255, 255);
-    font-style:normal;
+    color: rgb(0, 0, 0);
 }
 
 .welcome-msg{
@@ -31,15 +26,17 @@ body{
 
 .position{
     margin-top: 50px;
-        font-style: italic;
-        margin-bottom: 5px;
+    font-style: italic;
+    margin-bottom: 5px;
+    color: beige;
+    font-size: 15px;
 
 }
 .about-me{
     margin-top: 30px;
-        margin-bottom: 5px;
-          text-align: justify;
-  text-justify: inherit;
+    margin-bottom: 5px;
+ text-align: justify;
+ font-size: 16px;
 
 }
 
@@ -51,39 +48,48 @@ body{
     text-align: center;
     cursor: pointer;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
+    margin-top: 30px;;
 }
 
 
 section{
-display: flex;
-padding-left: 2px;
-padding-top: 5px;
+    display: flex;
+    padding-left: 2px;
+    padding-top: 5px;
+    margin: 0;
+    background-color: #373B44;
+    height: 100vh;
+          
 
-
-  margin: 0;
-  background-color: #373B44;
-  height: 100vh;
-  
-  
-  
 }
 
 .header {
     width: 50%;
     height: 100%;
     padding-left: 5%;
+    margin-top: 2em;
+
 }
 
 .header img {
-    width: 100%;
+ max-width: 100%;
+    max-height: 100%;
+        overflow: hidden;
+        object-fit: contain;
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .banner{
-        background-image: url(./123.png);
-
+      background-image: url(./yellow.avif) ;
+      background-repeat: no-repeat;
+            
 }
