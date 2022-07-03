@@ -1,0 +1,31 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: 20px;
+    padding: 5px;
+    letter-spacing: 3px;
+}
+.welcome{
+    margin-top: 10px;
+    padding: 5px;
+        text-transform: uppercase;
+
+}
+
+.name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 6px;
+    font-size: 1.5em;
+    color: rgb(237, 116, 68);
+    font-style:normal;
+}
+
+.welcome-msg{
+    margin-top: 30px;
+ 
+
+}
+
