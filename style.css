@@ -5,14 +5,13 @@
 }
 body{
     font-family: 'Roboto', sans-serif;   
-    letter-spacing: 6px;   
+    letter-spacing: 3px;   
     font-size: 16px;
-    color: aliceblue;
+    color: rgb(21, 22, 22);
 }
 
 .name{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 5px;
     font-size: 1.5em;
    
 }
@@ -25,16 +24,18 @@ body{
     margin-top: 50px;
     font-style: italic;
     margin-bottom: 5px;
-    color: beige;
+    color: rgb(189, 81, 42);
     font-size: 15px;
 
 }
 .about-me{
     margin-top: 30px;
     margin-bottom: 5px;
-    text-align: justify;
+   text-align:justify;
+word-spacing:-6px;
+
     font-size: 16px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -194,5 +195,137 @@ img {
 footer p {
     text-align: center;
     color: deepskyblue;
+}
+
+/* 
+    Media
+*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {  
+
+   /* Your CSS Code for this device size */   
+   
+ .container {
+  flex: 1;
+  max-width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-items: center;
+  flex-direction: column;
+  text-align:justify;
+word-spacing:-2px;
+
+}
+.my-dream{
+    color: rgb(31, 31, 31);
+    background-image: url(./images/12345.avif);
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+.dream{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+.dream-title{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: black;
+}
+
+.dream-me{
+padding-bottom: 30%;}
+  }
+
+  .job1,.job2{
+    text-align: justify;
+    padding: 20px;
+    color: black;
+    margin-right: 30px;
+   
+}
+
+
+
+.experience-list{
+   width: 80%;
+   height: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+
+
+}
+
+
+.job-position{
+    text-transform: uppercase;
+
+    margin-top: 20px;font-style: italic;
+    font-size: 12px;
+text-align: center;
+}
+.date{
+    margin-top: 10px;
+    color: rgb(120, 50, 50);
+    margin-bottom: 10px;
+     font-size: 12px;
+text-align: center;
+
+}
+.job-company{
+        font-size: 12px;
+text-align: center;
+}
+
+.job-details{
+    margin-top: 20px;
+     font-size: 12px;
+text-align: center;
+text-align: justify;
+padding: 3px;
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {  
+
+   /* Your CSS Code for this device size */    
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {  
+
+
+   /* Your CSS Code for this device size */    
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {  
+
+   /* Your CSS Code for this device size */    
+
+}      
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+   /* Your CSS Code for this device size */ 
+
+}
+
+/* According to Mobile Orientation */
+@media only screen and (orientation: landscape) {   
+
+   /* Your CSS Code for this device orientation */    
+
 }
 
