@@ -7,13 +7,14 @@ body{
     font-family: 'Roboto', sans-serif;   
     letter-spacing: 6px;   
     font-size: 16px;
+    color: aliceblue;
 }
 
 .name{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 5px;
     font-size: 1.5em;
-    color: rgb(0, 0, 0);
+   
 }
 
 .welcome-msg{
@@ -84,7 +85,7 @@ img {
 }
 
 .banner{
-    background-image: url(./images/12.avif) ;
+    background-image: url(./images/yellow.avif) ;
     background-repeat: no-repeat;
             
 }
@@ -116,6 +117,7 @@ img {
 .dream-title{
     font-size: 1.5em;
     text-transform: uppercase;
+    color: black;
 }
 
 .message-dream{
@@ -138,11 +140,13 @@ img {
     font-size: 1.5em;
     text-transform: uppercase;
     text-align: center;
+    color: black;
 }
 
 .job1,.job2{
     text-align: justify;
     padding: 20px;
+    color: black;
    
 }
 .job-position{
@@ -187,5 +191,6 @@ img {
 
 footer p {
     text-align: center;
+    color: deepskyblue;
 }
 
